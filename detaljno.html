@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SuperCat</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"  type="text/css">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet" type="text/css">
+  <!-- Your custom styles (optional) -->
+  <link href="style.css" rel="stylesheet"  type="text/css">
+
+
+
+
+  <!-- firebase -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+  
+</head>
+
+<body>
+
+    <!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark red lighten-1">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-paw"></i>SuperCat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+          aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="detaljno.html">Vijesti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paketi.html">Narudžba paketa</a>
+            </li>
+            <li class="nav-item hide" id="post">
+                <a class="nav-link " href="post.html">Objavi post</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+             
+            <li class="nav-item avatar">
+              <a class="nav-link p-0" href="#">
+                <img id="navlogo" src="img/icons/SuperCat LOGO PNG 2.png" class=" z-depth-0"
+                  alt="avatar image" height="35">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+
+
+
+  
+
+      <div class="alert alert-light" role="alert" id="nass">
+            <h4 class="alert-heading">Zašto je
+                    kupovina instagram pratioca, pregleda ili lajkova
+                    pravi izbor za Vas </h4>
+            <p></p>
+            <hr>
+            <p class="mb-0">Pratite naše dnevne postove</p>
+          </div>
+
+
+      <div class="container-fluid" id="kartice1">
+<!-- Card Narrower -->
+<div class="card card-cascade narrower" id="detaljnocard">
+
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img id="prvi"  class="card-img-top" src="img/Social-Media-Ideas.png" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade">
+      
+          <!-- Label -->
+          <h5 class="pink-text pb-2 pt-1"><i class="fas fa-hashtag"></i>supercat</h5>
+          <!-- Title -->
+          <h4 class="font-weight-bold card-title">Skrenite pažnju na vaš profil</h4>
+          <!-- Text -->
+          <p class="card-text">Ako želite da privučete pažnju ljudi na vaš lični ili biznis profil pravo je vrijeme da povećate prisutnost vaših naloga na socijalnim mrežama.Kupovina Instagram Pratioca stvara veće šanse da dovedete potencijalnog kupca na vašu stranicu i povećate šansu za samu kupovinu proizvoda ili usluge koju nudite. </p>
+          <!-- Button -->
+          <!-- <a  class="btn btn-unique"><img id="btnlogo" src="img/icons/SuperCat LOGO PNG.png" alt=""></a> -->
+      
+        </div>
+      
+      </div>
+      <!-- Card Narrower -->
+      <!-- Card Narrower -->
+<div class="card card-cascade narrower danis" id="detaljnocard" >
+
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img id="sredina"  class="card-img-top" src="img/Top-9-Benefits-of-Social-Media-for-Your-Business-760x400.png" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade">
+      
+          <!-- Label -->
+          <h5 class="pink-text pb-2 pt-1"><i class="fas fa-hashtag"></i>supercat</h5>
+          <!-- Title -->
+          <h4 class="font-weight-bold card-title">Ostanite relevantni</h4>
+          <!-- Text -->
+          <p class="card-text">Većina velikih brendova danas održava komunikaciju sa svojim korisnicima putem društvenih mreža. Ako želite da idete u korak sa današnjim trendovima na socijalnim mrežama izuzetno je bitno da investirate vaš novac u "vidljivost" vaših socijalnih mreža; pravi izbor: kupovina instagram pratioca. </p>
+          <!-- Button -->
+          <!-- <a class="btn btn-unique">Button</a> -->
+      
+        </div>
+      
+      </div>
+      <!-- Card Narrower -->
+      <!-- Card Narrower -->
+<div class="card card-cascade narrower" id="detaljnocard"> 
+
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img id="zadnja" class="card-img-top" src="img/Photo.jpg" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade">
+      
+          <!-- Label -->
+          <h5 class="pink-text pb-2 pt-1"><i class="fas fa-hashtag"></i>supercat</h5>
+          <!-- Title -->
+          <h4 class="font-weight-bold card-title">Zašto bi trebao kupiti socijalne signale</h4>
+          <!-- Text -->
+          <p class="card-text">Živimo u svijetu društvenih medija, vise od 200 miliona ljudi mjesečno koristi društvene mreže i ta brojka stalno raste. Bilo da želite da promovišete svoj brend, proizvod ili uslugu - socijalne mreže su pravo mesto za Vas. </p>
+          <!-- Button -->
+          <!-- <a class="btn btn-unique">Button</a> -->
+      
+        </div>
+      
+      </div>
+      <!-- Card Narrower -->
+
+      </div>
+
+      <hr>
+
+      
+  <!-- Footer -->
+  <footer class="page-footer danger-color ">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row">
+      </div>
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://github.com/Danis96?tab=repositories" target="blank"> Danis Preldzic <br> 
+                                                              Web Developer</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+    
+  <script src="js/preuzmiPost.js" ></script>
+
+
+    <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

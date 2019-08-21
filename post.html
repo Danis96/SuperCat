@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SuperCat</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet" type="text/css">
+  <!-- Your custom styles (optional) -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <!-- firebase -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+  
+
+  
+</head>
+
+<body>
+
+      <!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark red lighten-1">
+    <a class="navbar-brand" href="index.html"><i class="fas fa-paw"></i>SuperCat</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+      aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="detaljno.html">Detaljno</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paketi.html">Narudžba paketa</a>
+        </li>
+        <li class="nav-item active" id="post">
+                <a class="nav-link " href="post.html">Objavi post</a>
+            </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+         
+            
+        <li class="nav-item avatar">
+          <a class="nav-link p-0" href="#">
+            <img id="navlogo" src="img/icons/SuperCat LOGO PNG 2.png" class=" z-depth-0"
+              alt="avatar image" height="35">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+
+
+  
+
+
+  <div class="alert alert-light text-center" role="alert">
+        <h4 class="alert-heading">Objavi post</h4>
+        <p>Be creative</p>
+        <hr>
+        
+      </div>
+
+      <div class="container text-center" id="centriraj">
+<!-- Material form contact -->
+<div class="card" id="postF">
+
+        <h5 class="card-header blue-gradient white-text text-center py-4">
+            <strong>Objavi post</strong>
+            <p>#supercat</p>
+        </h5>
+    
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0">
+    
+            <!-- Form -->
+            <form class="text-center" style="color: #757575;">
+    
+              
+                <div class="md-form mt-3">
+                    <input type="text" id="materialContactFormName" class="form-control po" data-key="Author">
+                    <label for="materialContactFormName">Autor</label>
+                </div>
+    
+              
+                <div class="md-form">
+                    <input type="text" id="materialContactFormTitle" class="form-control po" data-key="Naslov">
+                    <label for="materialContactFormEmail">Naslov</label>
+                </div>
+
+                <!--Message-->
+                <div class="md-form">
+                        <textarea id="materialContactFormMessage" class="form-control md-textarea po" rows="3" data-key="Tekst"></textarea>
+                        <label for="materialContactFormMessage">Tekst</label>
+                    </div>
+
+                <div>
+                        <hr>
+                        <input type="file" value="upload" id="fileBtn" class="po" data-key="Image"/>
+                        <progress value="0" max="100" id="uploader">0%</progress>
+                        <hr>
+               </div>
+
+               <img  src='/animat-essential/checkmark/animat-checkmark-color.gif' id="checkDoneeee" alt="checkGif">
+    
+                <!-- Send button -->
+                <button  style="color: white" class="btn young-passion-gradient
+                btn-rounded btn-block z-depth-0 my-4 waves-effect" id="btnUpload">Objavi post</button>
+    
+            </form>
+            <!-- Form -->
+    
+        </div>
+    
+    </div>
+    <!-- Material form contact -->
+      </div>
+      <hr>
+
+     
+
+    
+   <!-- Footer -->
+<footer class="page-footer danger-color ">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row">
+      </div>
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://github.com/Danis96?tab=repositories" target="blank"> Danis Preldzic <br> 
+                                                              Web Developer</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+   
+   <script src="js/opost.js" ></script>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

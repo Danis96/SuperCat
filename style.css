@@ -1,0 +1,430 @@
+ 
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    #logo {
+      width: 18.750em;
+      height: 180px;
+      margin-top: 50px;
+  }
+  .logopic {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    position: relative;
+  }
+  .naslov {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(247, 247, 247, 0.6);
+    color: black;
+  }
+  .kart {
+   width: 280px;
+   margin-left: 15px;
+   border-radius: 10px;
+  }
+  .logocard {
+    margin-left: 40px;
+  }
+  .cardlogo {
+    width: 120px;
+    height: 130px;
+    
+  }  
+  .cardlogo1 {
+    width: 125px;
+    height: 130px;
+    
+  }
+  .logocard1 {
+    margin-left: 40px;
+  }
+  .cardlogo2 {
+    width: 130px;
+    height: 130px;
+  }
+  .logocard2 {
+    margin-left: 40px;
+  }
+ 
+  .cardlogo3 {
+    width: 130px;
+    height: 130px;
+  }
+  .logocard3 {
+    margin-left: 40px;
+  }
+  #kartice {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 15px;
+  } 
+  .text-insto {
+    color: rgba(207, 88, 231, 0.6)
+  }
+  .tvitibtn {
+    background: rgba(57, 203, 240, 0.6);
+  }
+  .text-tvito {
+    color: rgba(57, 203, 240, 0.6);
+  }
+  .text-youto {
+    color: rgba(196, 41, 41, 0.6);
+  }
+  .btn {
+    border-radius: 8px;
+  }
+  .details {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    position: relative;
+  }
+  .dugme {
+    width: 170px;
+  }
+  .nas {
+   
+    border: none;
+    border-radius: 10px;
+  }
+  #pretplata {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  /* detaljno */
+  #detaljnocard {
+    width: 370px;
+    margin-left: 20px;
+    margin-top: 20px; 
+   }
+   #kartice1 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+  } 
+
+  #sredina {
+    height: 200px;;
+  }
+  #prvi {
+    height: 200px;
+  }
+  #zadnja {
+    height: 200px;
+  }
+  #nass {
+     padding: 30px;
+     text-align: center;
+  }
+  #head img {
+    margin-top: 80px;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  /* naruci */
+  #glavni {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    width: 500px;
+    
+  }
+
+  #contactKard {
+    width: 500px;
+  }
+
+  #order {
+    width: 50px;
+    float: left;
+  }
+  #service {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+  }
+
+  .page-footer {
+    position: relative;
+  }
+
+  #postF {
+    width: 500px;
+  }
+  #centriraj {
+    margin-left: 380px;
+  }
+  .hide {
+    display: none;
+  }
+  #checkDone {
+    width: 150px;
+    display: none;
+    margin-left: 40px;
+   }
+
+   #checkDonee {
+    width: 150px;
+    display: none;
+    margin-left: 140px;
+   }
+   #checkDoneee {
+    width: 150px;
+    display: none;
+    margin-left: 45px;
+   }
+   #checkDoneeee {
+    width: 150px;
+    display: none;
+    margin-left: 120px;
+   }
+
+
+
+ 
+ 
+/* mob max 600px */
+@media (max-width : 37.500em) {
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    #logo {
+      width: 15.625em;
+      margin-top: 50px;
+  }
+  .logopic {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+
+  }
+  .kart {
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+   }
+   .text-insto {
+    color: rgba(207, 88, 231, 0.6)
+  }
+  .tvitibtn {
+    background: rgba(57, 203, 240, 0.6);
+  }
+  .text-tvito {
+    color: rgba(57, 203, 240, 0.6);
+  }
+  .text-youto {
+    color: rgba(196, 41, 41, 0.6);
+  }
+  #kartice {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  } 
+  .logocard {
+    margin-left: 60px;
+  }
+  
+  .logocard1 {
+    margin-left: 60px;
+  }
+  
+  .logocard2 {
+    margin-left: 60px;
+  }
+  
+  .logocard3 {
+    margin-left: 60px;
+  }
+  .btn {
+    border-radius: 8px;
+  }
+  #detaljnocard {
+    margin-top: 15px;
+  }
+  #kartice1 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  /* naruci */
+  #glavni {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    width: 350px;
+  }
+
+  #contactKard {
+    width: 350px;
+  }
+
+  #order {
+    width: 50px;
+    float: left;
+  }
+  #service {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+  }
+  #postF {
+    width: 340px;
+  }
+  #centriraj {
+   
+    margin-left: 0;
+    
+  }
+
+  #checkDone {
+    margin-left: 66px;
+  }
+
+  #checkDonee {
+    width: 150px;
+    display: none;
+    margin-left: 70px;
+   }
+
+
+  #checkDoneeee {
+    width: 150px;
+    display: none;
+    margin-left: 65px;
+   }
+  
+  
+  
+   }
+
+@media (min-width: 37.563em) and (max-width: 56.250em) {
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#logo {
+  width: 15.625em;
+  margin-top: 50px;
+}
+.logopic {
+display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+}
+.kart {
+width: 280px;
+margin-left: 10px;
+margin-top: 10px;
+border-radius: 10px;
+}
+.text-insto {
+color: rgba(207, 88, 231, 0.6)
+}
+.tvitibtn {
+background: rgba(57, 203, 240, 0.6);
+}
+.text-tvito {
+color: rgba(57, 203, 240, 0.6);
+}
+.text-youto {
+color: rgba(196, 41, 41, 0.6);
+}
+#kartice {
+display: -webkit-flex;
+display: -ms-flexbox;
+    
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 15px;
+} 
+.logocard {
+margin-left: 60px;
+}
+
+.logocard1 {
+margin-left: 60px;
+}
+
+.logocard2 {
+margin-left: 60px;
+}
+
+.logocard3 {
+margin-left: 60px;
+}
+.btn {
+border-radius: 8px;
+}
+
+/* naruci */
+#glavni {
+display: -webkit-flex;
+display: -ms-flexbox;
+justify-content: center;
+width: 350px;
+}
+
+#contactKard {
+  width: 350px;
+}
+
+#order {
+width: 50px;
+float: left;
+}
+#service {
+display: -webkit-flex;
+display: -ms-flexbox;
+flex-direction: column;
+}
+#postF {
+  width: 340px;
+}
+#centriraj {
+ 
+  margin-left: 0px;
+  
+}
+
+}
+  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen  and (min-width : 1824px) {
+
+
+
+
+} 
+
